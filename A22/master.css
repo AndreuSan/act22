@@ -1,0 +1,42 @@
+body{
+  background-image:url(fondo.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:1000px;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6daf3d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #69e5bc;
+}
+.active {
+  background-color: #4CAF50;
+}
+tr{
+  background-color: rgb(83, 224, 148);
+}
+tr+tr{
+  background-color: rgb(7, 102, 17);
+}
+a{
+  color: red;
+}
